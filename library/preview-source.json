@@ -1,0 +1,28 @@
+{
+  "authorArchiveSha256": "3703e6b5655eaffa89efa747656908d2d5fec09a5b67a13a1c9fb98f91cf3cdf",
+  "preview": {
+    "height": 540,
+    "sha256": "040cc7de058ad85b063a8c8be24f8506ac849dacdd69354f27254ed5da0d186b",
+    "sizeBytes": 83998,
+    "width": 960
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivePath": "overrides/config/fancymenu/assets/background.png",
+    "height": 1080,
+    "references": [
+      "overrides/config/fancymenu/customization/title_screen_layout.txt"
+    ],
+    "sha256": "32731555c88189ffdb5f3704623f6877cf07bd37339b6e36920b3167893deb9f",
+    "sizeBytes": 210027,
+    "width": 1920
+  },
+  "transformation": {
+    "format": "JPEG",
+    "method": "center crop and Lanczos resize",
+    "optimize": true,
+    "pillowVersion": "12.3.0",
+    "quality": 92,
+    "subsampling": 0
+  }
+}
