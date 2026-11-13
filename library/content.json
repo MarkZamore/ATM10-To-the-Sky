@@ -3,5 +3,26 @@
   "relativePath": "ATM10 To the Sky",
   "name": "All the Mods 10: To the Sky",
   "summary": "Развивайте остров над пустотой, начиная с дерева и одного блока.",
-  "description": "Из первых ресурсов вырастите остров и наладьте производство. Автоматизируйте добычу, осваивайте магию и открывайте новые способы получать материалы. Задания помогут пройти путь от старта до поздних этапов."
+  "description": "Из первых ресурсов вырастите остров и наладьте производство. Автоматизируйте добычу, осваивайте магию и открывайте новые способы получать материалы. Задания помогут пройти путь от старта до поздних этапов.",
+  "libraryIds": [
+    "additionalentityattributes",
+    "ae2addonlib",
+    "ae2wtlib_api",
+    "codecui",
+    "conditional_mixin",
+    "endercore",
+    "fabric_api_base",
+    "fabric_block_view_api_v2",
+    "fabric_renderer_api_v1",
+    "fabric_rendering_data_attachment_v1",
+    "grandpower",
+    "infiniverse",
+    "kuma_api",
+    "lambdynlights_api",
+    "mezz_config",
+    "nuggets",
+    "productivelib",
+    "sablecompanion",
+    "sauce"
+  ]
 }
