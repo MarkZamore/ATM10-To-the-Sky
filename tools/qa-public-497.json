@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "5e01e651b0a0ed4005dcf462dcc48b247e54ee86",
+  "manifestSha256": "1e153f670e88e28ca9c536504bbb2f8a0153efaad976734c23977440a18c67fc",
+  "releaseNumber": 497,
+  "launcherRevision": "e45c6f5830c8aa4725b4190cf05462097d94b753",
+  "launcherExecutableSha256": "1169b958dca5633ecabc43b32cfd5091ce4f9de111fa767c5c58f4ec765a6b7c",
+  "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+  "libraryArchiveSha256": "1b29da3a065f307010bde021f6e644f0be0dce43b75b5ac2f3172bf805f1e7a9",
+  "descriptorSha256": "84f9035ebc5806e9b0e8edac0969654ffeed7a7304bf50560a0c9551b7f7cee7",
+  "authorClientSha256": "3703e6b5655eaffa89efa747656908d2d5fec09a5b67a13a1c9fb98f91cf3cdf",
+  "logConfigurationSha256": "9e7b9918b6ede54f7393ed3d307e51a2edb032b98c12f069f5df976bcf940b89",
+  "e4steamSha256": "2cfedc07ee3c84b9b980351ea094d5f898c858f37ff46dada24c621061761d2e",
+  "minecraftVersion": "1.21.1",
+  "neoForgeVersion": "21.1.250",
+  "javaVersion": "21.0.12.1",
+  "loadedModCount": 358,
+  "testAgentSha256": "0969579ac15748fc18eeca71fe873d7d64c0f7a6fec5abb90a9cf4c6b58cb1dd",
+  "freshNativeProofSha256": "f8cac993d9afe91cf547e8ab0dfb502b112ddc6c87129819dd76aa8608fcae33",
+  "inputLevelDatSha256": "8f8fc0f20ce6857054a7b238d9e3cfa08ce809e4d208b509ab79fecf1b4fa08c",
+  "postExitLevelDatSha256": "4976e3f0c029f509ad76a76c0ec5182c49ee749cc881f69351551281f2155cca",
+  "productionJavaArgumentFileUsed": true,
+  "productionJavaArgumentFileRemoved": true,
+  "windowsCommandLengthBefore": 40369,
+  "windowsCommandLengthAfter": 1033,
+  "computerUse": false,
+  "windowTitle": [
+    {
+      "actual": "All the Mods 10: To the Sky",
+      "nativeWindow": true,
+      "matches": true,
+      "expected": "All the Mods 10: To the Sky",
+      "phase": "startup"
+    },
+    {
+      "actual": "All the Mods 10: To the Sky",
+      "nativeWindow": true,
+      "matches": true,
+      "expected": "All the Mods 10: To the Sky",
+      "phase": "world_before_steam"
+    },
+    {
+      "actual": "All the Mods 10: To the Sky",
+      "nativeWindow": true,
+      "matches": true,
+      "expected": "All the Mods 10: To the Sky",
+      "phase": "world_after_steam"
+    }
+  ],
+  "checks": {
+    "world_reopened": {
+      "gameMode": "SURVIVAL",
+      "commands": false
+    },
+    "native_skyblock_noise": {
+      "testedHeights": 384,
+      "baseColumnAir": true,
+      "generator": "de.melanx.skyblockbuilder.world.chunkgenerators.SkyblockNoiseBasedChunkGenerator",
+      "loadedChunk": false
+    },
+    "native_world_generation": {
+      "overworld": {
+        "biomes": [
+          "ars_elemental:blazing_forest",
+          "ars_elemental:cascading_forest",
+          "ars_elemental:flashing_forest",
+          "ars_elemental:flourishing_forest",
+          "ars_elemental:vexing_caves",
+          "ars_nouveau:archwood_forest",
+          "excessive_utilities:the_depths",
+          "integrateddynamics:meneglin",
+          "minecraft:badlands",
+          "minecraft:bamboo_jungle",
+          "minecraft:beach",
+          "minecraft:birch_forest",
+          "minecraft:cherry_grove",
+          "minecraft:dark_forest",
+          "minecraft:deep_dark",
+          "minecraft:desert",
+          "minecraft:dripstone_caves",
+          "minecraft:eroded_badlands",
+          "minecraft:flower_forest",
+          "minecraft:forest",
+          "minecraft:frozen_peaks",
+          "minecraft:frozen_river",
+          "minecraft:grove",
+          "minecraft:ice_spikes",
+          "minecraft:jagged_peaks",
+          "minecraft:jungle",
+          "minecraft:lush_caves",
+          "minecraft:mangrove_swamp",
+          "minecraft:meadow",
+          "minecraft:old_growth_birch_forest",
+          "minecraft:old_growth_pine_taiga",
+          "minecraft:old_growth_spruce_taiga",
+          "minecraft:plains",
+          "minecraft:river",
+          "minecraft:savanna",
+          "minecraft:savanna_plateau",
+          "minecraft:snowy_beach",
+          "minecraft:snowy_plains",
+          "minecraft:snowy_slopes",
+          "minecraft:snowy_taiga",
+          "minecraft:sparse_jungle",
+          "minecraft:stony_peaks",
+          "minecraft:stony_shore",
+          "minecraft:sunflower_plains",
+          "minecraft:swamp",
+          "minecraft:taiga",
+          "minecraft:windswept_forest",
+          "minecraft:windswept_gravelly_hills",
+          "minecraft:windswept_hills",
+          "minecraft:windswept_savanna",
+          "minecraft:wooded_badlands"
+        ],
+        "generator": "de.melanx.skyblockbuilder.world.chunkgenerators.SkyblockNoiseBasedChunkGenerator"
+      },
+      "nether": {
+        "biomes": [
+          "minecraft:basalt_deltas",
+          "minecraft:crimson_forest",
+          "minecraft:nether_wastes",
+          "minecraft:soul_sand_valley",
+          "minecraft:warped_forest"
+        ],
+        "generator": "de.melanx.skyblockbuilder.world.chunkgenerators.SkyblockNoiseBasedChunkGenerator"
+      }
+    },
+    "pause_before_publish": {
+      "worldSettingsOrCheats": false,
+      "nativeButtonCallback": true,
+      "shareToLan": 1
+    },
+    "published": {
+      "settingsClosedOnPublication": true,
+      "nativeListener": true
+    },
+    "native_permissions": {
+      "checks": {
+        "hostBefore": false,
+        "savedAllowsCommands": false,
+        "hostAfter": false,
+        "savedSurvivalMode": true,
+        "guestAfter": false,
+        "guestBefore": false
+      },
+      "syntheticGuest": true,
+      "actualPlayerList": true
+    },
+    "pause_after_publish": {
+      "shareToLanGone": true,
+      "reports": true,
+      "worldSettingsOrCheats": false
+    },
+    "chat": {
+      "nativeLocalHistory": true,
+      "privateEndpointRecorded": false,
+      "greenCopyableAddress": true,
+      "readyLines": 1,
+      "redCloseAction": true,
+      "blueInviteAction": true,
+      "localPortLines": 1
+    },
+    "steam_lobby_metadata": {
+      "actualSteamLobby": true,
+      "displayFlag": true,
+      "matchesWorldName": true,
+      "secondAccountDiscovery": "NOT RUN",
+      "matchesLauncherPlayer": true
+    },
+    "world_saved": {
+      "levelDatSha256": "1389ec14e4ad70b416c15e258624f3545fc5156cf77d6f5d833a8173e3ebbe71",
+      "levelDatBytes": 10495
+    },
+    "complete": {
+      "guestConnection": "NOT RUN",
+      "nativeSteamHost": "PASS"
+    }
+  },
+  "exitCode": 0,
+  "secondSteamAccount": "NOT RUN",
+  "productionLogMarkers": {
+    "steamDiscoveryPatched": 1,
+    "titleProducerPatched": 1,
+    "friendShareStart": 1,
+    "oneLanAutoPublish": 1,
+    "steamReady": 1
+  },
+  "freshNativeWorldPreset": {
+    "nativeButtonCallback": true,
+    "authorDefaultVerified": false,
+    "selectedPreset": "skyblockbuilder:skyblock",
+    "defaultPreset": "skyblockbuilder:skyblock"
+  },
+  "nativeProofSha256": "1dad6ec75cf8d7077f7601a27a34ad33d87581486c8a6c03ecb2d6fa50ab80c2",
+  "upstreamLockSha256": "b26ba27325b2f46e4a9123c02020f567a65384d0a479369eeb8d4ab0bc30748a",
+  "loadedAuthorModCount": 355,
+  "publicInstall": {
+    "outcome": "PASS",
+    "revision": "5e01e651b0a0ed4005dcf462dcc48b247e54ee86",
+    "manifestSha256": "1e153f670e88e28ca9c536504bbb2f8a0153efaad976734c23977440a18c67fc",
+    "librarySha256": "1b29da3a065f307010bde021f6e644f0be0dce43b75b5ac2f3172bf805f1e7a9",
+    "launcherAssemblySha256": "532f9237f5c226c18bbe4fb885389ea2b13ac31de8f24932b03fb3b7d5947b4a",
+    "gameAssets": 190,
+    "gameAssetBytes": 693367458,
+    "installedFiles": 2204,
+    "installedBytes": 711177639.0
+  }
+}
