@@ -1,2 +1,3 @@
 config/log4j2.xml
+config/memorysettings.json
 kubejs/client_scripts/lanmc_memory_warning_policy.js

@@ -3,6 +3,11 @@
   "authorArchiveSha256": "3703e6b5655eaffa89efa747656908d2d5fec09a5b67a13a1c9fb98f91cf3cdf",
   "descriptorSha256": "84f9035ebc5806e9b0e8edac0969654ffeed7a7304bf50560a0c9551b7f7cee7",
   "patches": [],
+  "memorySettingsConfig": {
+    "fileId": 7934534,
+    "sizeBytes": 2443,
+    "sha256": "075ace492b6ec2522086688b7f475a861cfec41ae747b161652a84e5a95dc9f5"
+  },
   "additions": [
     {
       "path": "config/log4j2.xml",
