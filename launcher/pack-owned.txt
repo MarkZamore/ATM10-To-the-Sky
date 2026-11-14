@@ -1,1 +1,2 @@
 config/log4j2.xml
+kubejs/client_scripts/lanmc_memory_warning_policy.js

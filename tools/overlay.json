@@ -14,5 +14,20 @@
       "sizeBytes": 44,
       "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
     }
-  ]
+  ],
+  "clientScripts": {
+    "dependencies": [
+      { "projectId": 238086, "fileId": 8715199 },
+      { "projectId": 326652, "fileId": 8889050 },
+      { "projectId": 416294, "fileId": 8463898 },
+      { "projectId": 526901, "fileId": 7934534 }
+    ],
+    "files": [
+      {
+        "path": "kubejs/client_scripts/lanmc_memory_warning_policy.js",
+        "sizeBytes": 268,
+        "sha256": "f18c0ce3cdd78d652475b1e9c05158e66eda9309ef437646c98c3a476eaca253"
+      }
+    ]
+  }
 }
